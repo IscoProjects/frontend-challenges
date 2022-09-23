@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+
+  <section class="seccion">
+
+    <div class="container p-2">
+      <div class="bg-white max-w-md mx-auto rounded-md overflow-hidden border-0 shadow-lg md:max-w-xl">
+        <div class="flex flex-col md:flex-row">
+          <div class="basis-1/2">
+            <img class="h-64 w-full object-cover object-center md:h-full md:w-full"
+              src="images/image-product.jpg" alt="Man looking at item at a store">
+          </div>
+          <div class="basis-1/2">
+            <div class="h-full p-5 md:flex md:flex-col md:justify-evenly">
+              <span class="mt-1 uppercase text-sm tracking-[.25em] text-xs font-monstserrat">perfume</span>
+              <h1 class="mt-2 text-4xl text-black font-bold font-fraunces">
+                Gabrielle Essence Eau De Parfum
+              </h1>
+              <p class="mt-2 font-monstserrat">A floral, solar and voluptuous interpretation composed by
+                Olivier Polge,
+                Perfumer-Creator for the House of CHANEL.</p>
+              <div class="flex flex-row mt-3">
+                <div class="basis-1/2 text-center">
+                  <span class="text-4xl text-green-700 font-bold font-fraunces">$149.99</span>
+                </div>
+                <div class="basis-1/2 ml-3">
+                  <span class="align-middle line-through font-monstserrat">$169.99</span>
+                </div>
+              </div>
+              <button type="submit"
+                class="bg-green-700 flex w-full mt-3 p-2 text-white font-monstserrat justify-center rounded-md hover:bg-green-900 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6 mr-2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                Add
+                to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 
+
+  <div class="container">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <div class="md:shrink-0">
+          <img class="h-48 w-full object-cover md:h-full md:w-48" src="images/image-product-desktop.jpg"
+            alt="Man looking at item at a store">
+        </div>
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+          <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers
+            for your new business</a>
+          <p class="mt-2 text-slate-500">Getting a new business off the ground is a lot of hard work. Here are five
+            ideas
+            you can use to find your first customers.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+</body>
+
+</html>
