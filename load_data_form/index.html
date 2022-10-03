@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class="mx-auto w-full">
+        <div class="flex flex-col gap-3 md:flex md:flex-row md:h-screen">
+            <div
+                class="bg-primary-green h-52 flex flex-col justify-evenly px-4 py-6 md:h-full md:justify-center md:basis-1/4">
+                <h1 class="text-2xl font-bold text-white text-center">PROYECTO PATFA</h1>
+                <h2 class="text-xl text-gray-200 text-center">Gestor de archivos CSV</h2>
+                <div class="h-18 flex flex-shrink-0 justify-center items-center">
+                    <img class="h-12 w-full" src="assets/img/patfa_logo.svg" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="h-full flex justify-center items-center md:basis-3/4">
+                <div class="container mx-auto md:max-w-xl">
+                    <form action="detail.html" method="" enctype="multipart/form-data">
+                        <div class="m-2 shadow-xl border-2 rounded-md">
+                            <div class="bg-white px-4 py-5">
+                                <div class="grid grid-cols-6 gap-6">
+                                    <div class="col-span-6 flex space-x-4 border-b-2 pb-2">
+                                        <div
+                                            class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-primary-coffe">
+                                            <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg"
+                                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                aria-hidden="true">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            </svg>
+                                        </div>
+                                        <div class="flex flex-col justify-center">
+                                            <h3 class="font-bold">Usuario de prueba</h3>
+                                            <a href="#"
+                                                class="inline-flex text-sm items-center text-slate-500 hover:underline hover:text-rose-700">Cerrar
+                                                sesion
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                    fill="currentColor" class="ml-2 w-5 h-5">
+                                                    <path fill-rule="evenodd"
+                                                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                                                        clip-rule="evenodd" />
+                                                    <path fill-rule="evenodd"
+                                                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-span-6">
+                                        <label for="estacion" class="block text-sm font-medium text-gray-700">Seleccione
+                                            la
+                                            estación:</label>
+                                        <select name="estacion" id="estacion"
+                                            class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-violet-500 focus:outline-none focus:ring-violet-500">
+                                            <option>Estación 1</option>
+                                            <option>Estación 2</option>
+                                            <option>Estación 3</option>
+                                            <option>Estación 4</option>
+                                            <option>Estación 5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-span-6">
+                                        <label for="estacion" class="block text-sm font-medium text-gray-700">Subir
+                                            archivo:</label>
+                                        <div class="flex items-center justify-center my-2 gap-2">
+                                            <label for="data" class="block text-sm font-medium text-gray-700">
+                                                <span class="sr-only">Seleccionar archivo:</span>
+                                                <input type="file" id="data"
+                                                    class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100 hover:file:cursor-pointer"
+                                                    accept=".csv" required />
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-span-6">
+                                        <input type="submit" value="enviar"
+                                            class="bg-teal-700 flex mx-auto px-6 py-2 text-white uppercase rounded-md hover:bg-teal-900">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
