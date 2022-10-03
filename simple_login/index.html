@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Iniciar sesión</title>
+</head>
+
+<body>
+    <section class="container h-screen w-full mx-auto">
+        <div class="h-full p-4 grid justify-items-center content-center">
+            <div class="rounded ">
+                <div class="mx-auto h-18 flex flex-shrink-0 justify-center items-center mb-2">
+                    <img class="h-10 w-auto" src="assets/img/patfa_logo.svg" alt="" srcset="">
+                </div>
+                <h1 class="text-center text-2xl font-normal tracking-widest pt-3">¡Bienvenido!</h1>
+                <h2 class="text-slate-700 text-sm text-center">Por favor, ingresa tus credenciales</h2>
+                <div class="h-auto w-full mt-2">
+                    <form action="" method="" class="h-full w-full">
+                        <div class="mb-2">
+                            <label class="block pt-2">
+                                <span class="text-sm font-medium">
+                                    Usuario
+                                </span>
+                                <input type="text" name="user"
+                                    class="mt-1 ml-1 px-2 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:ring-amber-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                                    placeholder="example" required/>
+                            </label>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block">
+                                <span class="block text-sm font-medium">
+                                    Contraseña
+                                </span>
+                                <input type="password" name="user"
+                                    class="mt-1 ml-1 px-2 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-amber-500 focus:ring-amber-500 block w-full rounded-md sm:text-sm focus:ring-1"
+                                    placeholder="********" required/>
+                            </label>
+                        </div>
+                        <button type="submit"
+                            class="bg-teal-700 block mx-auto text-white text-sm px-8 py-2 rounded uppercase hover:bg-teal-900">Acceder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
