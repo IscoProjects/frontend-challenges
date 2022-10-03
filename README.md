@@ -1,3 +1,4 @@
 # frontend-challenges
 Html, css, js.
-Based on frontend mentor challenges
+Framework Tailwind CSS.
+Based on frontend mentor challenges.
